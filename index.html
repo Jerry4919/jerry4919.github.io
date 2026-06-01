@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerry | Personal Homepage</title>
+  <meta name="description" content="Jerry 的个人 GitHub 主页，展示个人介绍、研究方向、项目与联系方式。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">Jerry</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#about">关于我</a>
+      <a href="#projects">项目</a>
+      <a href="#skills">技能</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">GitHub Personal Homepage</p>
+        <h1>Hi, I'm Jerry.</h1>
+        <p class="hero-copy">
+          我关注计算机视觉、深度学习和有实际价值的工程实现。这里会记录我的项目、研究方向和学习成果。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">查看项目</a>
+          <a class="button secondary" href="https://github.com/jerry4919" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="profile-panel" aria-label="Jerry 的个人卡片">
+        <div class="avatar">J</div>
+        <h2>Jerry</h2>
+        <p>Computer Vision · AI · Research</p>
+        <div class="status-row">
+          <span></span>
+          Available for collaboration
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>关于我</h2>
+      </div>
+      <p class="section-copy">
+        你好，我是 Jerry。你可以在这里写自己的学校、专业、研究兴趣、比赛经历、论文方向或实习经历。
+        这段文字可以直接在 <code>index.html</code> 里修改。
+      </p>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>项目展示</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Underwater Image Segmentation</h3>
+          <p>面向水下场景的图像分割实验，探索模型泛化、数据增强与可视化评估。</p>
+          <a href="https://github.com/jerry4919" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+        <article class="project-card">
+          <h3>AI Research Notes</h3>
+          <p>整理深度学习、计算机视觉和论文阅读笔记，方便长期复盘和分享。</p>
+          <a href="https://github.com/jerry4919" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+        <article class="project-card">
+          <h3>Personal Website</h3>
+          <p>这个主页本身也是一个项目，可以继续扩展博客、简历、作品集和项目文档。</p>
+          <a href="https://jerry4919.github.io/" target="_blank" rel="noreferrer">访问主页</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>技能方向</h2>
+      </div>
+      <div class="skill-list">
+        <span>Python</span>
+        <span>PyTorch</span>
+        <span>Computer Vision</span>
+        <span>Deep Learning</span>
+        <span>GitHub Pages</span>
+        <span>Research</span>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>联系我</h2>
+      </div>
+      <p class="section-copy">
+        欢迎通过 GitHub 与我联系。你也可以把这里改成邮箱、微信、LinkedIn 或其他联系方式。
+      </p>
+      <a class="button primary" href="https://github.com/jerry4919" target="_blank" rel="noreferrer">打开 GitHub</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Jerry. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

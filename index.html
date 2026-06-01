@@ -33,7 +33,10 @@
       </div>
 
       <div class="profile-panel" aria-label="Jerry 的个人卡片">
-        <div class="avatar">J</div>
+        <div class="avatar">
+          <img src="assets/avatar.jpg" alt="Jerry 的照片" onerror="this.style.display='none'; this.parentElement.classList.add('avatar-fallback');">
+          <span>J</span>
+        </div>
         <h2>Jerry</h2>
         <p>Computer Vision · AI · Research</p>
         <div class="status-row">
@@ -98,3 +101,59 @@
           <h3>Underwater Image Enhancement</h3>
           <p>面向水下场景的图像增强研究，关注感知一致性、图像质量提升和视觉任务应用。</p>
           <a href="https://github.com/jerry4919" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+
+        <article class="project-card">
+          <h3>AI Research Notes</h3>
+          <p>整理深度学习、计算机视觉和论文阅读笔记，方便长期复盘与分享。</p>
+          <a href="https://github.com/jerry4919" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Personal Website</h3>
+          <p>这个主页本身也是一个项目，可以继续扩展博客、简历、作品集和项目文档。</p>
+          <a href="https://jerry4919.github.io/" target="_blank" rel="noreferrer">访问主页</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>技能方向</h2>
+      </div>
+
+      <div class="skill-list">
+        <span>Python</span>
+        <span>PyTorch</span>
+        <span>Computer Vision</span>
+        <span>Deep Learning</span>
+        <span>Image Enhancement</span>
+        <span>GitHub Pages</span>
+        <span>Research</span>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>联系我</h2>
+      </div>
+
+      <p class="section-copy">
+        欢迎通过 GitHub 或邮箱与我联系。
+      </p>
+      <div class="contact-links">
+        <a class="button primary" href="https://github.com/jerry4919" target="_blank" rel="noreferrer">打开 GitHub</a>
+        <a class="button secondary" href="mailto:jerry_liu@dlmu.edu.cn">jerry_liu@dlmu.edu.cn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Jerry. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
